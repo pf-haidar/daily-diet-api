@@ -2,14 +2,10 @@
 
 API para gerenciamento das refeições de uma dieta. 
 
-**Versão Mínima do OS**
-
-- Android Level 21 - 31 (5.0 - 12)
-
 ## Desenvolvimento
 ### Requisitos para o ambiente de desenvolvimento
 
-Software essesnciais para o desenvolvimento da API:
+Software essenciais para o desenvolvimento da API:
 
 - [Node.js](https://nodejs.org/en)
 
