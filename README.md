@@ -41,3 +41,5 @@ Foi utilizado a IDE Visual Studio Code para desenvolvimento do projeto.
 - [Typescript]
 - [@types/node]
 - [tsx]
+- [Knex]
+- [Zod]
