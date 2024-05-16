@@ -1,8 +1,16 @@
 import { z } from 'zod'
 
 export const createMealBodySchema = z.object({
-  description: z.string(),
-  mealTime: z.date(),
-  isEnabled: z.boolean(),
   userId: z.string(),
+  name: z.string(),
+  description: z.string(),
+  mealTime: z.coerce.date(),
+  isEnabled: z.boolean(),
+})
+
+export const updateMealBodySchema = z.object({
+  name: z.string(),
+  description: z.string(),
+  mealTime: z.coerce.date(),
+  isEnabled: z.boolean(),
 })

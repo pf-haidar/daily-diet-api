@@ -22,21 +22,12 @@ export async function usersRoutes(app: FastifyInstance) {
       })
     }
 
-    const {
-      name,
-      totalMeals,
-      totalEnabledMeals,
-      totalDisabledMeals,
-      bestMealsSequence,
-    } = createUserBodySchema.parse(request.body)
+    const { name } = createUserBodySchema.parse(request.body)
 
     await knex('users').insert({
       id: randomUUID(),
       name,
-      total_meals: totalMeals,
-      total_enabled_meals: totalEnabledMeals,
-      total_disabled_meals: totalDisabledMeals,
-      best_meals_sequence: bestMealsSequence,
+      session_id: sessionId,
     })
 
     return reply.status(201).send()
