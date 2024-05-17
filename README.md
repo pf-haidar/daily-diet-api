@@ -35,11 +35,17 @@ Foi utilizado a IDE Visual Studio Code para desenvolvimento do projeto.
 ### Dependências de produção
 
 - [fastify](https://fastify.dev/)
+- [@fastify/cookie](https://www.npmjs.com/package/@fastify/cookie)
+- [dotenv](https://www.npmjs.com/package/dotenv)
+- [knex](https://www.npmjs.com/package/knex)
+- [zod](https://www.npmjs.com/package/zod)
+
 
 ### Dependências de desenvolvimento
 
-- [Typescript]
-- [@types/node]
-- [tsx]
-- [Knex]
-- [Zod]
+- [typescript](https://www.npmjs.com/package/typescript)
+- [RocketSeat ESLint](https://www.npmjs.com/package/@rocketseat/eslint-config)
+- [eslint](https://www.npmjs.com/package/eslint)
+- [sqlite3](https://www.npmjs.com/package/sqlite3)
+- [tsx](https://www.npmjs.com/package/tsx)
+
